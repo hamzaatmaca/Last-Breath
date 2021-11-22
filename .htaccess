@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^clock index.php?url=clock
+RewriteRule ^result$ index.php?url=result
+
+ErrorDocument	404	http://localhost/time/error.php

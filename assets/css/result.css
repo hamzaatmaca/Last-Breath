@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+*{
+	/*outline: 1px solid white;*/
+	color: white;
+}
+.analyz{
+	text-align: left;
+	letter-spacing: 5px;
+}
+
+input{
+	background: none;
+	width: 100%;
+	border: none;
+	box-shadow: 0 0 9px whitesmoke,inset 0 0 3px aqua;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	text-shadow: 0 0 2px aqua;
+	letter-spacing: 1px;
+	font-size: 15px;
+	
+}
+
+input:focus{
+	outline: none;
+	box-shadow: 0 0 7px aqua,inset 0 0 1px aqua;
+
+}
+
+label{
+	width: 100%;
+	margin: 10px auto;
+	text-align: left;
+	color: yellow;
+	font-weight: bold;
+	
+}
+.notice{
+	font-size: 10px;
+	letter-spacing: 2px;
+
+}

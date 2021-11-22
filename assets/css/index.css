@@ -1,0 +1,149 @@
+@charset 'utf-8';
+@import './saat.css';
+@import './nav.css';
+@import './result.css';
+
+*{
+	font-family: sans-serif;
+}
+
+html,body {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*overflow-y: hidden; /* Hide vertical scrollbar */
+	/*overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+
+::-webkit-scrollbar {
+	width: .1px; 
+	background-color: #eaeaea;
+	height: .1px; 
+}
+::-webkit-scrollbar-thumb {
+	background-color: #6AC1C4; 
+	border-radius:.1px 
+}
+
+::-webkit-scrollbar-thumb:hover { 
+	background-color: #6AC1C4
+}
+
+li{
+	list-style-type: none;
+}
+.container,.mainRow{
+	min-height: 100vh;
+}
+/*
+
+CLOCK MAIN PAGE
+*/
+
+#welcomeTitle{
+	color: white;
+	text-shadow: 0 0 5px #A3FFE5;
+	letter-spacing:2px;
+	font-size: 16px;
+}
+/*ENTER INFO*/
+.enterInfo{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: column;
+	
+	margin-top: 40px;
+	
+}
+
+.enterInfo input{
+	background: none;
+	width: 80%;
+	border: none;
+	box-shadow: 0 0 5px whitesmoke;
+	border-radius: 5px;
+	text-align: center;
+	color: aqua;
+	text-shadow: 0 0 2px aqua;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	margin: 10px auto;
+}
+::placeholder {
+  color: white;
+  font-weight: bolder;
+  opacity: .7; 
+}
+
+.enterInfo input:focus{
+	outline: none;
+	box-shadow: 0 0 7px aqua,inset 0 0 1px aqua;
+
+}
+
+.enterInfo label{
+	width: 80%;
+	margin: 10px auto;
+	text-align: left;
+	color: yellow;
+	letter-spacing: 4px;
+	text-shadow: 0 0 3px yellow;
+	font-family: sans-serif;
+	font-size: 14px;
+	
+}
+#send{
+	margin: 3px auto;
+	color: aqua;
+	font-weight: bolder;
+	background-color: black;
+	opacity: .6;
+	transition: .2;
+}
+#send:hover{
+	color: white;
+}
+/***************** MODAL *********************/
+.modalInfo{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, .8);
+	border-radius: 20px;
+	box-shadow: inset 0 0 20px aqua;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.buttons{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 90%;
+	margin-top: 50px;
+}
+.information{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 120px;
+	width: 90%;
+	box-shadow: 0 0 1px grey;
+	color: aqua!important;
+	text-shadow: 0 0 4px aqua;
+	letter-spacing: 5px;
+	font-size: 18px
+}
+.buttons .btn{
+	box-shadow:0 0 10px grey ;
+	text-shadow: 0 0 5px white;
+	letter-spacing: 4px;
+	transition: .2s;
+}

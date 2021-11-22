@@ -1,0 +1,10 @@
+@charset "utf8";
+
+img{
+	border-radius: 50%;
+	opacity: .4;
+	width: 380px;
+	height: 380px;
+	box-shadow: 0 0 20px #A3FFE5, inset 0 0 10px #A3FFE5;
+	
+}

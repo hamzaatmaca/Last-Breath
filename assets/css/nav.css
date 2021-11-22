@@ -1,0 +1,28 @@
+@charset 'utf-8';
+#nav{
+	width: 100%;
+	
+}
+
+#nav ul{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: row;
+
+}
+#nav ul li{
+	margin:5px 10px 0 10px;
+	color: white;
+	cursor: pointer;
+	transition: .2s;
+}
+
+#nav ul li:hover{
+	color: grey;
+}
+.lang {
+	color: whitesmoke;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
